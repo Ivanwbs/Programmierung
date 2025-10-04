@@ -1,0 +1,18 @@
+Programm "FPA_01_01_01"
+{
+	a = 1
+	Ausgabe: a
+	
+	a = +1
+	Ausgabe: a
+	
+	a = +1
+	Ausgabe: a
+	
+	a = +1
+	Ausgabe: a
+	
+	a = +1
+	Ausgabe: a
+	
+}
