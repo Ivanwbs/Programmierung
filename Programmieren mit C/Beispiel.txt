@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+
+
+int a = 0, b = 0; // ganze Zahlen
+unsigned int c = 100; // vorzeichenlose ganze Zahl
+float x = 0.0; double y = 0.0; // Fließkommazahlen
+char z = 'A'; // Zeichen
+char *text = "Hallo!"; // Zeichenkette
+
+printf("====================\n");
+printf("a = %d, b = %5.2f\n", a, b, z); 
+printf("Ihr Zeichen:\n%c\n", z); 
+
+   return 0;
+
+}
