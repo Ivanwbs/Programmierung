@@ -2,9 +2,9 @@
 
 #include<stdio.h>
 
-ian main()
+int main()
 {
-    system("chcp 1252"); // Mit diesem Befehl ("CHangeCodePage") wird die Codepage 1252 ausgewählt.
+    //system("chcp 1252"); // Mit diesem Befehl ("CHangeCodePage") wird die Codepage 1252 ausgewählt.
                          // In dieser Codepage befinden sich (wie in allen anderen Codepages) jeweils 256 unterschiedliche Zeichen
                          // Wir wählen die Codepage 1252, da wir in dieser auch die Umlaute (ä,ö,ü), ß und das Euro-Zeichen() vorfinden
 		         
@@ -14,8 +14,9 @@ ian main()
                          //                  *  MERKREGEL für 1252: "Das Jahr hat 12 Monate, bzw. 52 Wochen :-)"  *
                          //                  **********************************************************************
 
-    system("cls");       //  ... dies können wir durch cls ("CLearScreen"=Lösche den Bildschirm) rückgängig machen
+    //system("cls");       //  ... dies können wir durch cls ("CLearScreen"=Lösche den Bildschirm) rückgängig machen
 
+    
     char b1;
     char b2;
     int auswahl;
