@@ -1,0 +1,13 @@
+Local-Installed
+c/c++ Themes
+GitHub Codespaces
+.NET Install Tool
+c/c++
+c/c++ Debugging with Fl
+c/c++ Extansion Pack
+c# 
+c# Dev Kit
+CMake Tools
+Github Pull Requests
+InstalliCode for C# 
+Makefile Tools
