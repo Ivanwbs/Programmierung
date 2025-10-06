@@ -3,16 +3,20 @@
   "tasks": [
     {
       "label": "build",
-      "type": "shell",
-      "command": "gcc",
-      "args": ["-g","-O0","-Wall","-Wextra","-std=c17","${file}","-o","${fileDirname}/${fileBasenameNoExtension}"],
+      "type": "process",
+      "command": "/usr/bin/gcc",
+      "args": [
+        "-g", "-O0", "-Wall", "-Wextra", "-std=c17",
+        "${file}",
+        "-o", "${fileDirname}/${fileBasenameNoExtension}"
+      ],
       "group": { "kind": "build", "isDefault": true },
       "problemMatcher": ["$gcc"]
     },
     {
       "label": "run",
       "type": "shell",
-      "command": "${fileDirname}/${fileBasenameNoExtension}",
+      "command": "\"${fileDirname}/${fileBasenameNoExtension}\"",
       "dependsOn": "build"
     }
   ]

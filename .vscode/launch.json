@@ -1,18 +1,17 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "name": "Run current C file (gdb)",
-        "type": "cppdbg",
-        "request": "launch",
-        "program": "${fileDirname}/${fileBasenameNoExtension}",
-        "cwd": "${fileDirname}",
-        "MIMode": "gdb",
-        "miDebuggerPath": "/usr/bin/gdb",
-        "externalConsole": false,
-        "stopAtEntry": false,
-        "preLaunchTask": "build"
-      }
-    ]
-  }
-  
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run current C file (gdb)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "cwd": "${fileDirname}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "externalConsole": false,
+      "stopAtEntry": false,
+      "preLaunchTask": "build"
+    }
+  ]
+}
