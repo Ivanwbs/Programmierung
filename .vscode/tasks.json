@@ -2,29 +2,12 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "cppbuild",
       "label": "build",
-      "command": "/usr/bin/gcc",
-      "args": [
-        "-g",
-        "-O0",
-        "-Wall",
-        "-Wextra",
-        "-std=c17",
-        "${file}",
-        "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
-      ],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "problemMatcher": [
-        "$gcc"
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
+      "type": "shell",
+      "command": "gcc",
+      "args": ["-g","-O0","-Wall","-Wextra","-std=c17","${file}","-o","${fileDirname}/${fileBasenameNoExtension}"],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"]
     },
     {
       "label": "run",
